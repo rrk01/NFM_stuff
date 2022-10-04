@@ -132,3 +132,5 @@ for line in file_read:
         continue
     else:
         file_write.write(line + "\n")
+        
+file_write.close()
